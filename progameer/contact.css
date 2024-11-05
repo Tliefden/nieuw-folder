@@ -1,0 +1,10 @@
+body{
+
+    background-image: url("/images/achtergrond.jpg");
+}
+.header\.contact{
+    color: white;
+    width: 50%;
+    font-size: 150%;
+
+}

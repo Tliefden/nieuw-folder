@@ -1,0 +1,17 @@
+p {
+    max-width: 500px;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+img {
+    position: absolute;
+    top: 600px;
+    right: 100px;
+}
+.menu {
+    justify-content: center;
+    display: flex;
+}

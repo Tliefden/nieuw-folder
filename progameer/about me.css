@@ -1,0 +1,26 @@
+
+
+body{
+    background-image: url("/images/achtergrond.jpg");
+}
+
+.header_about_me{
+    color: white;
+    width: 50%;
+    font-size: 150%;
+}
+
+
+
+.header{
+    color: white;
+
+
+}
+#abc
+{
+
+    display: flex;
+    align-items: center;
+
+}
