@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<title>portfolio Tyrese Liefden</title>
+
+<head>
+    <style>
+        p {
+            color: white
+        }
+
+        h1 {
+            color: grey
+        }
+
+
+    </style>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menubalk</title>
+    <link rel="stylesheet" href="progameer/styles.css">
+</head>
+<body>
+<script>
+    function switchMode(){
+        console.log("test");
+        var x = document.getElementById("colorlink");
+        if (x.href.includes("darkmode.css")){
+            x.href = "bluemode.css";
+        }
+        else {
+            if (x.href.includes("bluemode.css")){
+                x.href = "lightmode.css";
+            }
+            else {
+                x.href = "darkmode.css";b 
+            }
+        }
+    }
+</script>
+
+<script>
+    window.onload = function(){
+        const cookiePopup = document.getElementById('cookie-popup');
+        const acceptCookiesButton = document.getElementById('accept-cookies');
+    }
+</script>
+<nav>
+    <ul class="menu">
+
+        <li><a href="progameer/my projects.html">my projects</a></li>
+        <li><a href="progameer/contact.html">contact</a></li>
+        <li><a href="progameer/about%20me.html">about me</a></li>
+        <li><a href="progameer/interview.html">interview</a></li>
+    </ul>
+</nav>
+</body>
+</html>
+
+
+</nav>
+
+
+<head>
+    <link rel="stylesheet" href="../main.css">
+    <h1>Hallo ik ben Tyrese liefden ik ben 17 jaar oud en ik ben een software-developer!</h1>
+    <p class="bold-text">
+     neem een kijkje in mijn portfolio.</p>
+
+    <img src="images/techniek-college-rotterdam.png.webp" alt="" width="300">
+</head>
+
+
+<div id="cookiePopup" class="cookie-popup">
+    <p>Deze website gebruikt cookies om ervoor te zorgen dat je de beste ervaring op onze website krijgt. <a href="more-info">meer informatie</a></p>
+    <button id="acceptcookies">Accepteren</button>
+    <button id="weiger-acceptcookies">weiger</button>
+</div>
+<script>
+    document.getElementById('acceptcookies').addEventListener('click', function() {
+        document.getElementById('cookiePopup').style.display = 'none';
+    });
+</script>
+<script>
+    document.getElementById('weiger-acceptcookies').addEventListener('click', function() {
+        document.getElementById('cookiePopup').style.display = 'none';
+    });
+</script>
+
+</body>
+</html>
