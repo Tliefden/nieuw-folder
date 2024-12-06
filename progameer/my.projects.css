@@ -1,0 +1,39 @@
+.project-box{
+
+        width: 250px;
+        height: 100px;
+        padding: 15px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        display: inline-block;
+        text-align: center;
+        font-size: 18px;
+    display: flex;
+
+   color: white;
+
+
+
+
+
+}
+body{ background-image: url("/images/achtergrond.jpg");}
+nav{
+    background-color: #333;
+    padding: 10px 0;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.menu li {
+    margin: 0 15px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    display:block;
+}

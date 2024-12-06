@@ -8,3 +8,46 @@ body{
     font-size: 150%;
 
 }
+
+
+nav{
+    background-color: #333;
+    padding: 10px 0;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    display:block;
+.menu li {
+    margin: 0 15px;
+
+}
+.co
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+    gap: 1em;
+}
+
+ {
+    max-width: fit-content;
+
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+    gap: 1em;
+border: white;
+}

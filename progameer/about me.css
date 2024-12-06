@@ -1,8 +1,28 @@
-
+nav{
+    background-color: #333;
+    padding: 10px 0;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.menu li {
+    margin: 0 15px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    display:block;
+}
 
 body{
     background-image: url("/images/achtergrond.jpg");
 }
+
+
 
 .header_about_me{
     color: white;
@@ -12,15 +32,39 @@ body{
 
 
 
-.header{
-    color: white;
+
+    .header {
+        color: white;
 
 
+    }
+
+    .tabel {
+color: white;
+        text-align: center;
+        width: 500px;
+        height: 250px;
+    }
+
+thead{
+    height: 50px;
 }
-#abc
-{
-
-    display: flex;
-    align-items: center;
-
+th{
+    background-color: #006db066;
 }
+td{
+    border: 1px solid #ffffff80;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

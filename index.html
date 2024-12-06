@@ -24,6 +24,30 @@
     <link rel="stylesheet" href="progameer/styles.css">
 </head>
 <body>
+<script>
+    function switchMode(){
+        console.log("test");
+        var x = document.getElementById("colorlink");
+        if (x.href.includes("darkmode.css")){
+            x.href = "bluemode.css";
+        }
+        else {
+            if (x.href.includes("bluemode.css")){
+                x.href = "lightmode.css";
+            }
+            else {
+                x.href = "darkmode.css";
+            }
+        }
+    }
+</script>
+
+<script>
+    window.onload = function(){
+        const cookiePopup = document.getElementById('cookie-popup');
+        const acceptCookiesButton = document.getElementById('accept-cookies');
+    }
+</script>
 <nav>
     <ul class="menu">
 
@@ -42,9 +66,29 @@
 
 <head>
     <link rel="stylesheet" href="../main.css">
-    <h1>portfolio Tyrese liefden.</h1>
+    <h1>Hallo ik ben Tyrese liefden ik ben 17 jaar oud en ik ben een software-developer!</h1>
     <p class="bold-text">
-        Hallo! mijn naam is Tyrese Liefden en ik ben 17 jaar oud en dit is mijn portfolio.</p>
+     neem een kijkje in mijn portfolio.</p>
 
     <img src="images/techniek-college-rotterdam.png.webp" alt="" width="300">
 </head>
+
+
+<div id="cookiePopup" class="cookie-popup">
+    <p>Deze website gebruikt cookies om ervoor te zorgen dat je de beste ervaring op onze website krijgt. <a href="more-info">meer informatie</a></p>
+    <button id="acceptcookies">Accepteren</button>
+    <button id="weiger-acceptcookies">weiger</button>
+</div>
+<script>
+    document.getElementById('acceptcookies').addEventListener('click', function() {
+        document.getElementById('cookiePopup').style.display = 'none';
+    });
+</script>
+<script>
+    document.getElementById('weiger-acceptcookies').addEventListener('click', function() {
+        document.getElementById('cookiePopup').style.display = 'none';
+    });
+</script>
+
+</body>
+</html>
